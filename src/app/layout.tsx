@@ -13,9 +13,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${redHatDIsplay.className} bg-background-primary text-white  antialiased `}>
-      {children}
-    </body>
+      <body
+        className={`${redHatDIsplay.className} bg-background-primary text-white  antialiased `}>
+        {children}
+      </body>
     </html >
   );
 }
