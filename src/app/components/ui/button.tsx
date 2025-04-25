@@ -3,7 +3,7 @@ import { cn } from "../lib/utils";
 
 export function Button({ children, variant = 'primary', ...props }: {
     children: React.ReactNode,
-    variant: 'primary' | 'secundary' | 'ghost',
+    variant?: 'primary' | 'secundary' | 'ghost',
 
 } & React.ButtonHTMLAttributes<HTMLButtonElement>) {
     return (
