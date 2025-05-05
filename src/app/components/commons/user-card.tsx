@@ -43,19 +43,17 @@ export function UserCard() {
                         <button key={index} className="p-3 rounded-xl bg-[#1e1e1e] hover:bg-[#2e2e2e]">
                             <Icon />
                         </button>)}
-
-
                 </div>
-                <div className="flex flex-col gap-3 w-full h-44">
-                    <div className="w-full flex flex-col items-center gap-3">
-                        <Button className="w-full">
-                            Template Saas - Compre agora
-                        </Button>
-                        <button className="p-3 rounded-xl bg-[#1e1e1e] hover:bg-[#2e2e2e]">
-                            <Plus />
-                        </button>
-                    </div>
-
+            </div>
+            
+            <div className="flex flex-col gap-3 w-full h-44">
+                <div className="w-full flex flex-col items-center gap-3">
+                    <Button className="w-full">
+                        Template Saas - Compre agora
+                    </Button>
+                    <button className="p-3 rounded-xl bg-[#1e1e1e] hover:bg-[#2e2e2e]">
+                        <Plus />
+                    </button>
                 </div>
             </div>
         </div>)

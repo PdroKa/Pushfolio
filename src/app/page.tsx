@@ -1,14 +1,16 @@
 import Image from "next/image";
 import { Hero } from "./components/ladingPage/Hero";
+import { Header } from "./components/ladingPage/header";
 
 export default function Home() {
   return (
-    <h1 className="h-screen max-w-7xl mx-auto">
+    <div className="h-screen max-w-7xl mx-auto items-center px-4 sm:px-6 lg:px-8">
+      <Header />
       <Hero />
-      {/* <Header />
+      {/* 
       <VideoExplanation />
       <Princing />
       <FAQ/> */}
-    </h1>
+    </div>
   );
 }
