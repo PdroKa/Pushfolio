@@ -12,9 +12,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
-      <body
-        className={`${redHatDIsplay.className} bg-background-primary text-white antialiased `}>
+    <html lang="pt-br">
+      <body className={`${redHatDIsplay.className} bg-background-primary text-white antialiased`}>
         {children}
       </body>
     </html >
