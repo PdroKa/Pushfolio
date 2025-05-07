@@ -3,6 +3,7 @@ import { Hero } from "./components/ladingPage/Hero";
 import { Header } from "./components/ladingPage/header";
 import { VideoExplanation } from "./components/ladingPage/video-explanation";
 import { Princing } from "./components/ladingPage/princing";
+import { FAQ } from "./components/ladingPage/faq";
 
 export default function Home() {
   return (
@@ -11,9 +12,10 @@ export default function Home() {
       <Hero />
       <VideoExplanation />
       <Princing />
+      <FAQ/> 
       {/* 
       
-      <FAQ/> */}
+      */}
     </div>
   );
 }
