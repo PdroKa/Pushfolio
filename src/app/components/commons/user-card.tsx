@@ -16,10 +16,10 @@ export function UserCard() {
     ]
     return (
 
-        <div className="w-[340px] flex flex-col gap-5 items-center p-5 border border-white 
+        <div className="w-[22rem] flex flex-col gap-5 md:gap-3 items-center p-5 border border-white 
         border-opacity-10 bg-[#121212] rounded-3xl text-white"
         >
-            <div className="size-48">
+            <div className="size-48 md:size-32">
                 <img
                     src="https://github.com/pdroka.png"
                     alt="Kauan Reis"
@@ -27,9 +27,9 @@ export function UserCard() {
                 />
             </div>
 
-            <div className="flex flex-col gap-2 w-full">
+            <div className="flex flex-col gap-2 md:gap-1 w-full">
                 <div className="flex items-center gap-2">
-                    <h2 className="text-3xl font-bold min-w-0 overflow-hidden">Kauan Reis</h2>
+                    <h2 className="text-3xl md:text-2xl font-bold min-w-0 overflow-hidden">Kauan Reis</h2>
                 </div>
                 <p className="opacity-40">
                     "Eu faço produtos para a internet"
@@ -46,7 +46,7 @@ export function UserCard() {
                 </div>
             </div>
             
-            <div className="flex flex-col gap-3 w-full h-44">
+            <div className="flex flex-col gap-3 w-full">
                 <div className="w-full flex flex-col items-center gap-3">
                     <Button className="w-full">
                         Template Saas - Compre agora
