@@ -1,7 +1,7 @@
 
 export function ProjectCard() {
     return (
-        <div className="w-[23rem] h-[8rem] flex gap-5 bg-background-secondary p-3 rounded-[20px] border border-transparent hover:border-border-secondary">
+        <div className="w-80 h-[8rem] flex gap-5 bg-background-secondary p-3 rounded-[20px] border border-transparent hover:border-border-secondary">
             <div className="size-24 rounded-md overflow-hidden flex-shrink-0">
                 <img
                     src="./project1.jpg"
